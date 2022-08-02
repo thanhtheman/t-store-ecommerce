@@ -23,7 +23,6 @@ const Navbar = () => {
                 <Col className='text-end' >
                     <CartFill color='orange' size={27} className='m-4'  />
                 </Col>
-                <Button>Hello</Button>
             </Row>
         </Container>
     </>
