@@ -2,6 +2,7 @@ import React from 'react';
 import { images } from '../../images'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
+import Button from 'react-bootstrap/Button'
 import Col from 'react-bootstrap/Col';
 import { CartFill } from 'react-bootstrap-icons';
 import { FcLike} from 'react-icons/fc';
@@ -22,6 +23,7 @@ const Navbar = () => {
                 <Col className='text-end' >
                     <CartFill color='orange' size={27} className='m-4'  />
                 </Col>
+                <Button>Hello</Button>
             </Row>
         </Container>
     </>
